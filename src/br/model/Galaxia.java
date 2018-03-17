@@ -1,13 +1,10 @@
-package model;
+package br.model;
 
-public abstract class Estrela {
-	public Estrela() {
-
-	}
+public abstract class Galaxia {
 
 	protected String nome;
-	protected double volume;
 	protected String posicao;
+	protected double dimensao;
 
 	public String getNome() {
 		return nome;
@@ -17,19 +14,19 @@ public abstract class Estrela {
 		this.nome = nome;
 	}
 
-	public double getVolume() {
-		return volume;
-	}
-
-	public void setVolume(double volume) {
-		this.volume = volume;
-	}
-
 	public String getPosicao() {
 		return posicao;
 	}
 
 	public void setPosicao(String posicao) {
 		this.posicao = posicao;
+	}
+
+	public double getDimensao() {
+		return dimensao;
+	}
+
+	public void setDimensao(double dimensao) {
+		this.dimensao = dimensao;
 	}
 }
