@@ -25,14 +25,12 @@
 			<div class="col l3 s12">
 				<h5 class="white-text">Contatos:</h5>
 				<ul>
-					<li><a class="white-text"
-						href="https://github.com/SoldumaPraia" target="blank"> <img
-							src="img/gh.png" width="15px" height="15px">Patrick Brass
-					</a></li>
-					<li><a class="white-text" href="https://github.com/MrS4w"
-						target="blank"> <img src="img/gh.png" width="15px"
-							height="15px">Victor Silva
-					</a></li>
+					<li><a class="white-text" href="https://github.com/SoldumaPraia" target="blank"> <img src="img/gh.png" width="15px"
+							 height="15px">Patrick Brass
+						</a></li>
+					<li><a class="white-text" href="https://github.com/MrS4w" target="blank"> <img src="img/gh.png" width="15px"
+							 height="15px">Victor Silva
+						</a></li>
 				</ul>
 			</div>
 		</div>
@@ -49,4 +47,5 @@
 <script src="js/init.js"></script>
 
 </body>
+
 </html>

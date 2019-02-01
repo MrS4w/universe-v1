@@ -5,10 +5,10 @@
 	<h1>Erro 404</h1>
 	<br>
 	<h2>Página não encontrada</h2><br>
-	 <i class="large material-icons">sentiment_dissatisfied</i><br>
+	<i class="large material-icons">sentiment_dissatisfied</i><br>
 	<h7>Clique no botão abaixo para voltar para a página inicial:</h7><br>
 	<a type="button" href="index?action=Index" class="blue-grey darken-4 waves-effect waves-light btn"><i class="large material-icons">home</i></a>
-	
+
 </div>
 <br><br><br><br><br><br><br>
 <!-- Footer -->
@@ -23,14 +23,12 @@
 			<div class="col l3 s12">
 				<h5 class="white-text">Contatos:</h5>
 				<ul>
-					<li><a class="white-text"
-						href="https://github.com/SoldumaPraia" target="blank"> <img
-							src="img/gh.png" width="15px" height="15px">Patrick Brass
-					</a></li>
-					<li><a class="white-text" href="https://github.com/MrS4w"
-						target="blank"> <img src="img/gh.png" width="15px"
-							height="15px">Victor Silva
-					</a></li>
+					<li><a class="white-text" href="https://github.com/SoldumaPraia" target="blank"> <img src="img/gh.png" width="15px"
+							 height="15px">Patrick Brass
+						</a></li>
+					<li><a class="white-text" href="https://github.com/MrS4w" target="blank"> <img src="img/gh.png" width="15px"
+							 height="15px">Victor Silva
+						</a></li>
 				</ul>
 			</div>
 		</div>
@@ -47,4 +45,5 @@
 <script src="js/init.js"></script>
 
 </body>
+
 </html>

@@ -11,23 +11,23 @@
 	 %>
 <div class="header center white-text">
 	<h7>Clique no botão abaixo para voltar para a listagem:</h7>
-	<br> <a type="button" href="index?action=ListarBN"
-		class="blue-grey darken-4 waves-effect waves-light btn"><i
-		class="large material-icons">arrow_back</i></a>
+	<br> <a type="button" href="index?action=ListarBN" class="blue-grey darken-4 waves-effect waves-light btn"><i class="large material-icons">arrow_back</i></a>
 </div>
 <%}else {
 	out.println("<h3 class='white-text'>Buraco negro encontrado:</h3>");
 %>
 
 <style>
-table, td, th {
-	border: solid 1px #000;
-	padding: 5px;
-}
+	table,
+	td,
+	th {
+		border: solid 1px #000;
+		padding: 5px;
+	}
 
-td {
-	width: 10%;
-}
+	td {
+		width: 10%;
+	}
 </style>
 
 <table class='header center white-text'>
@@ -77,14 +77,12 @@ td {
 			<div class="col l3 s12">
 				<h5 class="white-text">Contatos:</h5>
 				<ul>
-					<li><a class="white-text"
-						href="https://github.com/SoldumaPraia" target="blank"> <img
-							src="img/gh.png" width="15px" height="15px">Patrick Brass
-					</a></li>
-					<li><a class="white-text" href="https://github.com/MrS4w"
-						target="blank"> <img src="img/gh.png" width="15px"
-							height="15px">Victor Silva
-					</a></li>
+					<li><a class="white-text" href="https://github.com/SoldumaPraia" target="blank"> <img src="img/gh.png" width="15px"
+							 height="15px">Patrick Brass
+						</a></li>
+					<li><a class="white-text" href="https://github.com/MrS4w" target="blank"> <img src="img/gh.png" width="15px"
+							 height="15px">Victor Silva
+						</a></li>
 				</ul>
 			</div>
 		</div>
@@ -101,4 +99,5 @@ td {
 <script src="js/init.js"></script>
 
 </body>
+
 </html>

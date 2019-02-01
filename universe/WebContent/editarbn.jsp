@@ -12,21 +12,16 @@
 		%>
 		<div class="row">
 			<h3 class="header center white-text">Editar buraco negro:</h3>
-			<form class="white-text col s4 offset-s4" method="post"
-				action="index?action=BNedit">
+			<form class="white-text col s4 offset-s4" method="post" action="index?action=BNedit">
 				<input type="hidden" name="id" value="<%=a.getId()%>">
-				Nome:<input type="text" id="nome" value="<%=a.getNome()%>"
-					name="nome" required> 
-					Volume:
-					<input type="text" value="<%=a.getVolume()%>"
-					id="volume" name="volume" required> 
-					Posição:
-					<input type="text" value="<%=a.getPosicao()%>" id="posicao" name="posicao" required> 
-					Velocidade/Rotação:
-					<input type="text" id="velocidade" name="velocidade" min="0" value="<%=a.getVelocidade()%>" required>
-					<input type="submit" name="botao"
-					class="blue-grey darken-4 waves-effect waves-light btn"
-					value="Enviar">
+				Nome:<input type="text" id="nome" value="<%=a.getNome()%>" name="nome" required>
+				Volume:
+				<input type="text" value="<%=a.getVolume()%>" id="volume" name="volume" required>
+				Posição:
+				<input type="text" value="<%=a.getPosicao()%>" id="posicao" name="posicao" required>
+				Velocidade/Rotação:
+				<input type="text" id="velocidade" name="velocidade" min="0" value="<%=a.getVelocidade()%>" required>
+				<input type="submit" name="botao" class="blue-grey darken-4 waves-effect waves-light btn" value="Enviar">
 			</form>
 		</div>
 	</div>

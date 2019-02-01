@@ -8,10 +8,10 @@
         Nome:<input type="text" id="nome" name="nome" required>
         Volume:<input type="number" id="volume" name="volume" min="0" required>
         Posição:<input type="text" id="posicao" name="posicao" required>
-        <input type="radio" name="" value="a">    
-        Está visível?<input name="group1" value="1" type="radio" id="test1"/>
+        <input type="radio" name="" value="a">
+        Está visível?<input name="group1" value="1" type="radio" id="test1" />
         <label class="white-text with-gap" for="test1">Sim</label>
-        <input name="group1" type="radio" value="0" id="test2" checked/>
+        <input name="group1" type="radio" value="0" id="test2" checked />
         <label class="white-text with-gap" for="test2">Não</label><br><br>
         <input type="submit" name="botao" class="blue-grey darken-4 waves-effect waves-light btn" value="Enviar">
       </form>

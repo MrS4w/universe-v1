@@ -6,10 +6,8 @@
 
 <form method="post" action="index?action=BuscarEstrela">
 	<div class="black white-text">
-		<input id="txtestrela" name="txtestrela" type="text"
-			placeholder="Pesquise por nome..." required>
-		<button class="btn waves-effect brown darken-4" type="submit"
-			name="action">
+		<input id="txtestrela" name="txtestrela" type="text" placeholder="Pesquise por nome..." required>
+		<button class="btn waves-effect brown darken-4" type="submit" name="action">
 			Procurar <i class="material-icons right">send</i>
 		</button>
 	</div>
@@ -22,7 +20,7 @@
 	} else {
 %>
 <style>
-table, td, th {
+	table, td, th {
 	border: solid 1px #000;
 	padding: 5px;
 }
@@ -52,24 +50,24 @@ td {
 					out.println("<td>Não visível</td>");
 				}%>
 
-				<td>
-				<form method="post" action="index?action=EditarEstrela">					
-					<button value="<%=lista.get(i).getId() %>" class="button blue darken-4" name="editar"  type="submit"> 
-						<i class='blue darken-4 white-text material-icons left'>edit</i>
-					</button>
-				</form>
-			</td>
-			<td>
-				<form method="post" action="index?action=ExcluirEstrela">
-					<input type="hidden" name="id" value="<%=lista.get(i).getId() %>">
-					<button class="button red accent-4" value="<%=lista.get(i).getId() %>" name="deletar" type="submit">
-						<i class='button red accent-4 white-text material-icons left'>delete</i>
-						
-					</button>
-				</form>
-			</td>
-		</tr>
-			<% }
+	<td>
+		<form method="post" action="index?action=EditarEstrela">
+			<button value="<%=lista.get(i).getId() %>" class="button blue darken-4" name="editar" type="submit">
+				<i class='blue darken-4 white-text material-icons left'>edit</i>
+			</button>
+		</form>
+	</td>
+	<td>
+		<form method="post" action="index?action=ExcluirEstrela">
+			<input type="hidden" name="id" value="<%=lista.get(i).getId() %>">
+			<button class="button red accent-4" value="<%=lista.get(i).getId() %>" name="deletar" type="submit">
+				<i class='button red accent-4 white-text material-icons left'>delete</i>
+
+			</button>
+		</form>
+	</td>
+	</tr>
+	<% }
 		}
 	%>
 </table>
@@ -104,14 +102,12 @@ td {
 			<div class="col l3 s12">
 				<h5 class="white-text">Contatos:</h5>
 				<ul>
-					<li><a class="white-text"
-						href="https://github.com/SoldumaPraia" target="blank"> <img
-							src="img/gh.png" width="15px" height="15px">Patrick Brass
-					</a></li>
-					<li><a class="white-text" href="https://github.com/MrS4w"
-						target="blank"> <img src="img/gh.png" width="15px"
-							height="15px">Victor Silva
-					</a></li>
+					<li><a class="white-text" href="https://github.com/SoldumaPraia" target="blank"> <img src="img/gh.png" width="15px"
+							 height="15px">Patrick Brass
+						</a></li>
+					<li><a class="white-text" href="https://github.com/MrS4w" target="blank"> <img src="img/gh.png" width="15px"
+							 height="15px">Victor Silva
+						</a></li>
 				</ul>
 			</div>
 		</div>
@@ -128,4 +124,5 @@ td {
 <script src="js/init.js"></script>
 
 </body>
+
 </html>
